@@ -1,0 +1,114 @@
+html{
+    background: url(../images/pl.jpg) left top no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+.container{
+    margin: auto auto;
+    padding: 20vh 7vw;
+}
+
+.register,
+.login{
+    background-color: rgba(0, 0, 0, .65);
+    float: left;
+    max-width: 25vw;
+    padding: 40px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.65);
+    color: #FFF;
+}
+
+.register:hover,
+.login:hover{
+    box-shadow: 10px 10px 30px rgba(0,0,0,.15);
+}
+
+.register img,
+.login img{
+    max-width: 20%;
+    display: block;
+    position: absolute;
+    top: -17%;
+    right: 40%;
+}
+
+.register input,
+.login input{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 12px;
+    box-sizing: border-box;
+    opacity: 1;
+    border-radius: 20px;
+    outline: none;
+}
+
+.register input[type="email"],
+.register input[type="password"],
+.login input[type="email"],
+.login input[type="password"]{
+    border: 1px solid #000;
+    font-family: 'Asap', sans-serif;
+}
+
+.register input[type="submit"],
+.login input[type="submit"]{
+    background-color: #6B8B9A;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+
+.register a,
+.login a{
+    text-decoration: none;
+    color: #6B8B9A;
+    font-weight: bold;
+}
+
+.register input[type="email"]:hover,
+.register input[type="password"]:hover,
+.register input[type="email"]:focus,
+.register input[type="password"]:focus,
+.login input[type="email"]:hover,
+.login input[type="password"]:hover,
+.login input[type="email"]:focus,
+.login input[type="password"]:focus{
+    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15);
+}
+
+.register input[type="submit"]:hover,
+.register input[type="submit"]:focus,
+.login input[type="submit"]:hover,
+.login input[type="submit"]:focus{
+    text-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    cursor: pointer;
+    box-shadow: 10px 10px 50px rgba(0,0,0,1);
+}
+
+.register a:hover,
+.login a:hover{
+    text-shadow: 1px 1px 2px #6B8B9A;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
