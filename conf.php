@@ -1,7 +1,7 @@
 <?php
 
-$USERNAME = 'root';
-$PASSWORD = 'namra1997';
+$USERNAME = 'XXXX';
+$PASSWORD = 'XXXX';
 $HOST = 'localhost';
 $DATABASE = 'movie_streaming';
 
